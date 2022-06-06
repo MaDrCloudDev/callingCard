@@ -72,11 +72,11 @@ main > .subtitle {
 }
 
 .btn-rounded-white{
-	margin-top: 30px;
+	margin: .2em;
 	display:inline-block;
 	color:white;
 	padding:15px 25px;
-	border:3px solid white;
+	border:.1rem solid white;
 	border-radius:.3rem;
 	transition:.7s ease all;
 	text-decoration:none;
