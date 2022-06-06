@@ -1,7 +1,8 @@
-/* Typography */
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
 
 html {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Reem Kufi', sans-serif;
+	font-weight: 400;
 }
 
 @media (min-width: 576px) {
@@ -28,7 +29,7 @@ html {
 	}
 }
 
-.icons-social i {
+.icons i {
 	font-size: 3em;
 }
 
@@ -43,19 +44,19 @@ main {
 	text-align: center;
 }
 
-main > .intro {
+main > .name {
 	font-family: 'Reem Kufi', sans-serif;
-	font-size: 3.75em;
+	font-size: 3.76em;
 	font-weight: 600;
 }
 
-main > .tagline {
-	font-size: 1.5rem;
-	margin: 1.5rem 0;
+main > .subtitle {
+	font-size: 1.6rem;
+	margin: 1.6rem 0;
 	font-weight: 100;
 }
 
-.icons-social i {
+.icons i {
 	padding: 10px;
 }
 
@@ -65,19 +66,19 @@ main > .tagline {
 
 .devto svg {
 	margin-bottom: -0.20rem;
-	margin-left: 0.675rem;;
-	width: 2.65rem;
-	height: 2.65rem;
+	margin-left: 0.676rem;;
+	width: 2.66rem;
+	height: 2.66rem;
 }
 
 .btn-rounded-white{
 	margin-top: 30px;
 	display:inline-block;
-	color:#fff;
+	color:white;
 	padding:15px 25px;
-	border:3px solid #fff;
-	border-radius:30px;
-	transition:.5s ease all;
+	border:3px solid white;
+	border-radius:.3rem;
+	transition:.7s ease all;
 	text-decoration:none;
 }
 
