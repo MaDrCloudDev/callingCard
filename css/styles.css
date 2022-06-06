@@ -82,3 +82,8 @@ main > .subtitle {
 	text-decoration:none;
 }
 
+.btn-rounded-white:hover {
+	background-color: white;
+	color: black;
+}
+
