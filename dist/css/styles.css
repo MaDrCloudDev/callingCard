@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+
+html {
+	font-family: 'Reem Kufi', sans-serif;
+	font-weight: 400;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+.icons i {
+	font-size: 3em;
+}
+
+/* Custom Styles */
+
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+}
+
+main > .name {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 3.76em;
+	font-weight: 600;
+}
+
+main > .subtitle {
+	font-size: 1.6rem;
+	margin: 1.6rem 0;
+	font-weight: 100;
+}
+
+.icons i {
+	padding: 10px;
+}
+
+.devto {
+	margin-bottom: -0.20rem;
+}
+
+.devto svg {
+	margin-bottom: -0.20rem;
+	margin-left: 0.676rem;;
+	width: 2.66rem;
+	height: 2.66rem;
+}
+
+.btn-rounded-white{
+	margin: .2em;
+	display:inline-block;
+	color:white;
+	padding:15px 25px;
+	border:.1rem solid white;
+	border-radius:.3rem;
+	transition:.7s ease all;
+	text-decoration:none;
+}
+
+.btn-rounded-white:hover {
+	background-color: white;
+	color: black;
+}
+
