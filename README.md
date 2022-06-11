@@ -3,7 +3,7 @@ Simple CSS calling-card-portfolio for developers who don't blog, or who don't wa
 ```
 nvm i 18
 npm i
-npm dev
-npm build
+npm run dev
+npm run build
 ```
 
