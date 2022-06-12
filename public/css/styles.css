@@ -71,7 +71,7 @@ main > .subtitle {
 	height: 2.66rem;
 }
 
-.btn-rounded-white{
+.btn-white{
 	margin: .2em;
 	display:inline-block;
 	color:white;
@@ -82,7 +82,7 @@ main > .subtitle {
 	text-decoration:none;
 }
 
-.btn-rounded-white:hover {
+.btn-white:hover {
 	background-color: white;
 	color: black;
 }
