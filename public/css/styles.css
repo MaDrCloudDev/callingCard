@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
 
 html {
+	background-color: black;
+	color: white;
 	font-family: 'Reem Kufi', sans-serif;
 	font-weight: 400;
+	
 }
 
 @media (min-width: 576px) {
@@ -29,10 +32,6 @@ html {
 	}
 }
 
-.icons i {
-	font-size: 3em;
-}
-
 /* Custom Styles */
 
 main {
@@ -45,7 +44,6 @@ main {
 }
 
 main > .name {
-	font-family: 'Reem Kufi', sans-serif;
 	font-size: 3.76em;
 	font-weight: 600;
 }
@@ -56,46 +54,18 @@ main > .subtitle {
 	font-weight: 100;
 }
 
-.icons i {
-	padding: 10px;
-}
-
-.devto {
-	margin-bottom: -0.20rem;
-}
-
-.devto svg {
-	margin-bottom: -0.20rem;
-	margin-left: 0.676rem;;
-	width: 2.66rem;
-	height: 2.66rem;
-}
-
-.btn-white{
+.btn{
 	margin: .2em;
 	display:inline-block;
 	color:white;
 	padding:15px 25px;
-	border:.16rem solid white;
-	border-radius: .5rem;
-	transition:.7s ease all;
+	border:.1rem solid white;
+	border-radius: .6rem;
+	transition:.6s ease all;
 	text-decoration:none;
 }
 
-.btn-white:hover {
-	background-color: white;
+.btn:hover {
+	background-color: #7F00FF;
 	color: black;
-}
-
-main {
-	background: black;
-	color: white;
-}
-
-.icons a {
-	color: white;
-}
-
-.icons a svg path{
-	fill: white;
 }
