@@ -76,8 +76,8 @@ main > .subtitle {
 	display:inline-block;
 	color:white;
 	padding:15px 25px;
-	border:.1rem solid white;
-	border-radius:.3rem;
+	border:.16rem solid white;
+	border-radius: .6rem;
 	transition:.7s ease all;
 	text-decoration:none;
 }
@@ -87,3 +87,15 @@ main > .subtitle {
 	color: black;
 }
 
+main {
+	background: black;
+	color: white;
+}
+
+.icons a {
+	color: white;
+}
+
+.icons a svg path{
+	fill: white;
+}
