@@ -2,7 +2,6 @@
 
 html {
 	background-color: black;
-	color: white;
 	font-family: 'Reem Kufi', sans-serif;
 	font-weight: 400;
 	
@@ -43,29 +42,32 @@ main {
 	text-align: center;
 }
 
-main > .name {
+.name {
 	font-size: 3.76em;
 	font-weight: 600;
+	color: #338eef;
 }
 
-main > .subtitle {
+.subtitle {
 	font-size: 1.6rem;
 	margin: 1.6rem 0;
 	font-weight: 100;
+	color: #ffff00;
 }
 
 .btn{
 	margin: .2em;
 	display:inline-block;
-	color:white;
-	padding:15px 25px;
-	border:.1rem solid white;
+	color: #6a6c6e;
+	padding:.5rem .6rem;
+	border:.08rem solid ;
 	border-radius: .6rem;
 	transition:.6s ease all;
 	text-decoration:none;
 }
 
 .btn:hover {
-	background-color: #7F00FF;
-	color: black;
+	color: #ffff00;
+	border-color: #ffff00;
 }
+
